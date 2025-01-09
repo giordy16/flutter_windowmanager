@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               Text('Secure Mode: ${_secureMode.toString()}\n'),
-              RaisedButton(
+              ElevatedButton(
                 onPressed: () async {
                   final secureModeToggle = !_secureMode;
 
